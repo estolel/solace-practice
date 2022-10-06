@@ -1,0 +1,12 @@
+---
+spring:
+    port: 9090
+    config:
+        activate:
+            on-profiles: first_instance
+---
+spring:
+    port: 9090
+    config:
+        activate:
+            on-profiles: second_instance
